@@ -1,5 +1,7 @@
 package stringReverser;
 
+
+//1.Inversarea unui string: Scrie o funcție care inversează un string.
 public class StringReverser {
     //Functie ce inverseaza un string
     public static String stringReverser(String text){

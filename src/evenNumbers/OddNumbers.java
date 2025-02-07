@@ -2,7 +2,7 @@ package evenNumbers;
 
 //11.	Numerele impare: Scrie o funcție care returnează toate numerele impare dintr-un array.
 
-public class oddNumbers {
+public class OddNumbers {
     public static int[] searchOdd(int[] numbers){
         int count = 0;
         //numaram cite numere impare sunt
@@ -18,7 +18,7 @@ public class oddNumbers {
         //adaugam numerele impare in arayul rezultat
         for (int number:
                 numbers) {
-            if(number %2 == 0){
+            if(number %2 != 0){
                 odd[index++] = number;
             }
         }

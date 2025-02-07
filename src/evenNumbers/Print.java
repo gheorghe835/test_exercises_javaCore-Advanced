@@ -3,7 +3,7 @@ package evenNumbers;
 import java.util.Scanner;
 
 import static evenNumbers.EvenNumbers.searchEven;
-
+import static evenNumbers.OddNumbers.searchOdd;
 public class Print {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,10 +14,20 @@ public class Print {
         for (int i = 0; i < num; i++){
             numbers[i] = scanner.nextInt();
         }
+        //pentru numere pare
+
         int[] even = searchEven(numbers);
         System.out.println("  Numerele pare sunt:: ");
         for (int number:
              even) {
+            System.out.println("  " + number + " ");
+        }
+
+        //pentru numere impare
+        int[] odd = searchOdd(numbers);
+        System.out.println("  Numere impare sunt:: ");
+        for (int number:
+             odd) {
             System.out.println("  " + number + " ");
         }
         scanner.close();

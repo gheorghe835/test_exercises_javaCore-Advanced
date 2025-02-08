@@ -17,6 +17,11 @@ public class Print {
                 "12.\tConcatenează două stringuri: Scrie o funcție care concatenează două stringuri.\n" +
                 "13.\tNumărul de apariții: Scrie o funcție care numără aparițiile unui caracter într-un string.\n" +
                 "14.\tAnagramă: Scrie o funcție care verifică dacă două stringuri sunt anagrame.\n" +
-                "15.\tRotirea unui array: Scrie o funcție care rotește un array cu K poziții.\n");
+                "15.\tRotirea unui array: Scrie o funcție care rotește un array cu K poziții.\n" +
+                "16.\tCăutarea unui element: Scrie o funcție care caută un element într-un array și returnează indexul acestuia.\n" +
+                "17.\tCombinarea array-urilor: Scrie o funcție care combină două array-uri într-unul singur.\n" +
+                "18.\tȘtergerea duplicatelor: Scrie o funcție care elimină duplicatele dintr-un array.\n" +
+                "19.\tValidarea parantezelor: Scrie o funcție care verifică dacă parantezele dintr-un string sunt corect închise.\n" +
+                "20.\tNumărul de cuvinte: Scrie o funcție care numără cuvintele dintr-un string.\n");
     }
 }

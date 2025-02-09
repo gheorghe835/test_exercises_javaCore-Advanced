@@ -22,6 +22,11 @@ public class Print {
                 "17.\tCombinarea array-urilor: Scrie o funcție care combină două array-uri într-unul singur.\n" +
                 "18.\tȘtergerea duplicatelor: Scrie o funcție care elimină duplicatele dintr-un array.\n" +
                 "19.\tValidarea parantezelor: Scrie o funcție care verifică dacă parantezele dintr-un string sunt corect închise.\n" +
-                "20.\tNumărul de cuvinte: Scrie o funcție care numără cuvintele dintr-un string.\n");
+                "20.\tNumărul de cuvinte: Scrie o funcție care numără cuvintele dintr-un string.\n" +
+                "21.\tSubstring: Scrie o funcție care găsește toate substrigurile dintr-un string dat.\n" +
+                "22.\tCreează un hashmap: Scrie o funcție care creează un hashmap dintr-un array de stringuri.\n" +
+                "23.\tIntersecția a două array-uri: Scrie o funcție care găsește intersecția a două array-uri.\n" +
+                "24.\tUnicitatea caracterelor: Scrie o funcție care verifică dacă toate caracterele dintr-un string sunt unice.\n" +
+                "25.\tGăsește suma celor mai mari K numere: Scrie o funcție care găsește suma celor mai mari K numere dintr-un array.\n");
     }
 }
